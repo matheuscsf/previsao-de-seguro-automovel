@@ -1,0 +1,52 @@
+# Logs e arquivos do sistema
+*.log
+*.csv
+*.tsv
+*.out
+*.bak
+*.tmp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.env
+*.venv
+
+# Configurações do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos relacionados a pacotes e ambientes
+*.egg-info/
+*.eggs/
+*.whl
+dist/
+build/
+*.lock
+env/
+venv/
+venv.bak/
+
+# Arquivos de cache do Streamlit
+.streamlit/
+
+# Arquivos de modelos grandes ou gerados
+models/*.joblib
+models/*.pkl
+
+# Visualizações geradas
+visuals/*.png
+
+# Dados confidenciais ou grandes
+data/*.csv
+data/*.tsv
+data/*.json
+
+# Outros arquivos que não devem ser versionados
+!README.md  # Exceção: sempre manter README.md
